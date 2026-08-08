@@ -59,7 +59,7 @@ abbr{
    color : whitesmoke;
 }
 
-.navigation a:hover{
+.navigation a:hover:not(.startForFree){
    color : rgb(15, 131, 240);
 }
 
@@ -85,6 +85,10 @@ abbr{
    /* border: 1px red solid; */
    border-radius: 5px;
    
+}
+
+.startForFree:hover{
+   background-color: rgb(0, 95, 255);
 }
 
 /* header ends here */
