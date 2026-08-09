@@ -1,0 +1,316 @@
+/* global */
+
+body{
+    font: 16px Arial, Helvetica, serif;
+    color: black;
+    padding:0;
+    margin:0;
+    text-align:center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.cls{
+    clear:both;
+}
+
+button{
+    padding:0;
+    margin: 0;
+}
+/* .container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* header ---------------------------------*/
+header{
+    height: 50px;
+    /* border: 2px red solid; */
+    border-bottom: 1.5px gray solid;
+}
+
+.current{
+    color: rebeccapurple;
+}
+#logo img{
+    /* border: 2px red solid; */
+    zoom: 8%;
+    float: left;
+    padding:0;
+    padding-top:20px;
+    margin:10px;
+}
+#logo h1{
+    float:left;
+    padding:0;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+#navi{
+    float: right;
+    padding:0;
+    margin:0;
+}
+#navi ul{
+    list-style: none;
+    margin-right:10px;
+}
+#navi li{
+    display: inline-block;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+#navi li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+
+/* post-------------------------------------- */
+.feed{
+    width: 100%;
+    border: 1px gray solid;
+}
+
+/* headline */
+.headline{
+    /* border: 2px red solid; */
+    height:55px;
+    width: 100%;
+    background-color: rgb(209, 207, 207);
+}
+
+.profileImg{
+    /* position: relative; */
+    width: 55px;
+    /* border: 2px navy solid; */
+    padding: 2px;
+    padding-left:10px;
+    float: left;
+}
+
+.profileImg img{
+    place-items: centre;
+    border-radius: 50%;
+    zoom: 5%;
+}
+
+.title{
+    float: left;
+    /* border: 2px navy solid; */
+    width: 60%;
+    height: 55px;
+}
+
+.title h3{
+    /* border: 2px navy solid; */
+    height: 15px;
+    padding:0;
+    margin:0;
+    text-align: left;
+    font-size: medium;
+    padding-left: 3px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.title p{
+    /* border: 2px navy solid; */
+    /* height: 18px; */
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+.whenWhere{
+    /* border: 2px navy solid; */
+    float:right;
+    padding-right: 10px;
+    height: 55px;
+    text-align: right;
+}
+
+.when{
+    /* border: 3px navy solid; */
+    padding:4px;
+    margin:0;
+    font-size: 14px;
+}
+
+.where{
+    padding:4px;
+    margin:0;
+    /* border: 2px navy solid; */
+    font-size: 12px;
+    
+}
+
+/* ----------------------- */
+
+/* media */
+.media{
+    height: 540px;
+    /* border: 2px red solid; */
+    background-color: rgb(97, 96, 96);
+    /* place-items: centre centre; */
+}
+
+/* ----------------------- */
+
+.media img{
+    /* text-align: center; */
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    zoom:125%;
+}
+
+.media p{
+    padding:0;
+    margin: 0;
+    text-align: left;
+    padding-top: 480px;
+}
+
+/* set p above the .media img as background */
+
+/* reaction */
+.reaction{
+    background-color: rgb(209, 207, 207);
+    height: 45px;
+    /* border: 2px red solid; */
+    text-align: center;
+}
+
+.reaction article{
+    /* width: 45px; */
+    height: 45px;
+    display:inline;
+    float: left;
+}
+
+.like{
+    zoom: 5.5%;
+}
+
+.fake{
+    zoom: 10%;
+}
+.comment{
+    zoom: 11%;
+}
+.share{
+    zoom: 11%;
+}
+
+
+.save{
+    float: right;
+    text-align: right;
+    zoom: 6.5%;
+}
+
+/* explore Page---------------------*/
+.thumbnail{
+    border: 1px gray solid;
+    width: 33%;
+    height: 144px;
+    float: left ;
+    display: inline;
+}
+
+/* Help Page ----------------------- */
+
+#emergency{
+    /* border: 2px rgb(130, 129, 129) solid; */
+    margin: 30px 70px;
+    padding: 5px;
+    background-color: rgb(116, 110, 88);
+    height: 20px;
+    border-left: 10px rgb(123, 54, 54) solid;
+    border-right: 10px rgb(123, 54, 54) solid;
+    
+}
+#emergency li{
+    margin: 0px; padding: 0px;
+    border: 2px rgb(74, 74, 74) solid;
+    text-align: center;
+    margin: 0px 10px;
+    float: left;
+    /* position:relative; */
+    left: 30%;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+#emergency ul{
+    margin: 0;
+    padding: 0;
+}
+#emergency a{
+    color:white;
+}
+
+#search{
+    border: 2px rgb(130, 129, 129) solid;
+    margin: 70px 0px;
+    padding: 2px 40%;
+    min-height: 33px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button_1{
+    padding: 0; margin: 0;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#typehere{
+    padding: 0; margin: 0;
+    height: 30px;
+    padding: 0px 50px;
+    width:400px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#faq a{
+    text-decoration: underline;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    margin: 350px 0px 0px 0px;
+}
+
+footer{
+    background-color: gray;
+    height: 30px;
+}
+footer p{
+    padding: 5px 100px;
+    text-align: center;
+}
