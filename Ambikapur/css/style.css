@@ -301,7 +301,6 @@ header{
 #faq a{
     text-decoration: underline;
     display: inline-block;
-    float: left;
     padding: 10px;
     margin: 350px 0px 0px 0px;
 }
@@ -313,4 +312,148 @@ footer{
 footer p{
     padding: 5px 100px;
     text-align: center;
+}
+
+/* profile page------------------------------- */
+
+#dashboard{
+    text-align: left;
+    padding:0;
+    margin:0;
+    /* border: 1px red solid; */
+    height: 200px;
+    padding : 10px;
+}
+
+#primary-dashboard{
+    padding:0; margin:0;
+    /* border: 1px red solid; */
+    height: 90px;
+}
+
+#secondary-dashboard{
+    padding:0; margin:0;
+    /* border: 1px red solid; */
+    height: 90px;
+}
+
+.dp{
+    /* border: 1px orangered solid; */
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    
+}
+
+.p_data{
+    /* border: 1px orangered solid; */
+    text-align: left;
+    color:coral;
+    height: 90px;
+    display: inline;
+    float:right;
+    width: 85%;
+}
+
+.user{
+    /* border: 1px red solid; */
+    text-align: center;
+    height: 30%;
+    padding: 1px 40px;
+}
+
+.user ul{
+    padding: 0; margin: 0;
+    padding-top: 3px;
+}
+.user li{
+    font-weight:bold;
+    display: inline;
+    padding: 0px 1px;
+    margin: 0px;
+}
+
+.bio{
+    color:darkgreen;
+    font-size: smaller ;
+    padding: 3px 10px;
+}
+
+/* secondary-dashboard */
+
+#secondary-dashboard{
+    /* border: 1px blue solid; */
+    height: 107px;
+    width: 100%;
+    padding: 0; margin: 0;
+}
+
+secondary-dashboard ul{
+    padding: 0;
+    margin: 0;
+}
+
+secondary-dashboard li{
+    padding: 0;
+    margin: 0;
+}
+
+#left-secondary-dashboard{
+    /* border: 1px gray solid; */
+    display: inline-block;
+    width: 45%;
+    height: 100px;
+    margin: 3px 0;
+}
+
+#left-secondary-dashboard ul{
+    padding: 0;
+    margin: 10px 0px;
+    height: 33%;
+}
+#left-secondary-dashboard li{
+    list-style: none;
+    padding: 0px 2px ;
+    /* margin: 10px 0px; */
+    height: 30px;
+}
+
+#left-secondary-dashboard p{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#right-secondary-dashboard{
+    /* border: 1px gray solid; */
+    display: inline;
+    float: right;
+    width: 53%;
+    height: 100px;
+    margin: 3px 0;
+    margin-right: 5px;
+}
+
+#right-secondary-dashboard ul{
+    padding: 0; margin: 0;
+    display: inline-block;
+    /* border: 1px gray solid; */
+    width:32%;
+    text-align: center;
+    height: 100%;
+}
+
+#right-secondary-dashboard li{
+    /* border: 1px gray solid; */
+    padding: 0;
+    margin: 0;
+    padding:15px 0px;
+}
+
+/* --------------demo */
+
+.dp img{
+    zoom: 10%;
 }
